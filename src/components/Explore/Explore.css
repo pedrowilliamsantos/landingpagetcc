@@ -1,0 +1,44 @@
+.section_explore {
+    display: grid;
+    min-height: 410px;
+   /* background-color: yellow;*/
+}
+
+.explore_container{
+    margin-top: 2%;
+    /*background-color: yellowgreen;*/
+}
+
+.div_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 2%;
+    gap: 1rem;
+}
+
+.section_img {
+    display: flex;
+    justify-content: center;
+    /*background-color: blue;*/
+}
+.explore_img {
+    transform: rotate(0);
+    transition: all 400ms ease;
+}
+
+.explore_img:hover {
+    transform: rotate(-10deg);
+}
+
+.explore_topicos{
+    margin-top: 10%;
+}
+
+.explore_topicos > div {
+    margin: 2%;
+}
+
+.explore_icons {
+    vertical-align: middle;
+}
+

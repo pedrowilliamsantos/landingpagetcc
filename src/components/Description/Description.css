@@ -1,0 +1,21 @@
+.section_description {
+    display: grid;
+    min-height: 410px;
+}
+
+.description_grid {
+    /*background-color: blueviolet;*/
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+}
+
+.description_container {
+    /*background-color: brown;*/
+    margin-left: 1%;
+}
+
+.description_img {
+    display: flex;
+    justify-content: center;
+}

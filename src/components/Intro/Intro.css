@@ -1,0 +1,26 @@
+.section_main {
+    width: 100%;
+    min-height: 410px;
+    /*background-color: aqua;*/
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+.intro_subtitulo, .intro_descricao{
+    display: flex;
+    justify-content: center;
+}
+
+.cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon_download {
+    background-color: transparent;
+    vertical-align: middle;
+ 
+}
